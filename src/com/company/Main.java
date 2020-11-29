@@ -2,6 +2,23 @@ package com.company;
 
 public class Main {
 
+    public static void main(String[] args) {
+        int[] v = {1, 2, 3, 4, 6, 7, 8, 120};
+        System.out.println("srednia : " + średnia(v));
+
+        System.out.println("sumaKwadratow : " + sumaKwadratów(v));
+
+        System.out.println("znajdz : " + find(v));
+
+        int[] v1 = {4, 8, 6};
+        System.out.println("poKolei : " + poKolei(v));
+
+
+        int[] v2 = {1, 2, 3};
+        System.out.println("najwyzszyWynik : " + najwyższyWynik(v2));
+    }
+
+
     //zadanie 1
     public static int średnia(int[] tablica){
         int średnia = 0;
@@ -68,23 +85,5 @@ public class Main {
         return max;
     }
 
-
-    public static void main(String[] args) {
-        int[] v = {1, 2, 3, 4, 6, 7, 8, 120};
-        System.out.println("srednia : " + średnia(v));
-
-        System.out.println("sumaKwadratow : " + sumaKwadratów(v));
-
-        System.out.println("znajdz : " + find(v));
-
-        int[] v1 = {4, 8, 6};
-        System.out.println("poKolei : " + poKolei(v));
-
-
-        int[] v2 = {1, 2, 3};
-        System.out.println("najwyzszyWynik : " + najwyższyWynik(v2));
-
-
-    }
 }
 
